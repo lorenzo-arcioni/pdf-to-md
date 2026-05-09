@@ -1,0 +1,17 @@
+[project]
+name = "pdf-to-md"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.1",
+    "marker-pdf>=1.7.1",
+    "python-multipart>=0.0.27",
+    "torch==2.5.1+cpu",
+    "transformers>=4.43.0",
+    "uvicorn>=0.46.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cpu"
